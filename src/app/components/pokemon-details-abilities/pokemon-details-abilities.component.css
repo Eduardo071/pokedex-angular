@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  width: 98vw;
+  min-height: 8rem;
+  background: #d2d3db;
+  gap: 5rem;
+  border-radius: 7rem;
+}
+
+main h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+  color: #484b6a;
+  font-size: 5rem;
+  font-family: "Bangers", cursive;
+  margin: 0;
+  padding: 1rem;
+  border: none;
+  border-bottom: #484b6a solid 6px;
+  border-radius: 0.5rem;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+  min-height: 15rem;
+  width: 100%;
+}
+
+main section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9394a5;
+  gap: 2rem;
+  width: 40rem;
+  min-height: 25rem;
+  border-radius: 4rem;
+}
+
+main section div h1 {
+  font-family: "Bangers", cursive;
+  font-size: 5.5rem;
+  padding: 1.8rem;
+  border: none;
+  border-bottom: #484b6a solid 6px;
+  border-radius: 0.5rem;
+  margin: 0;
+  width: 100%;
+}
+
+main section div p {
+  font-family: "Bangers", cursive;
+  font-size: 3rem;
+  padding: 2rem;
+  color: #484b6a;
+  line-height: normal;
+}

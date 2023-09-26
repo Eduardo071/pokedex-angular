@@ -1,0 +1,24 @@
+<main>
+  <header>
+    <input
+      type="text"
+      name="name"
+      placeholder="Digite o nome do pokemon..."
+      [(ngModel)]="name"
+      (ngModelChange)="onInputChange($event)"
+    />
+  </header>
+  <section class="containerCards">
+    <div class="cardPokemon" *ngFor="let pokemon of pokemons | async">
+      <img
+        [src]="
+          pokemon.sprites.versions['generation-v']['black-white'].animated
+            .front_default
+        "
+        alt=""
+      />
+      <h1>{{ pokemon.name }}</h1>
+      <a routerLink="/pokemon/{{pokemon.name}}">Sobre</a>
+    </div>
+  </section>
+</main>

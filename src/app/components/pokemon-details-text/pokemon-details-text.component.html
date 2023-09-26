@@ -1,0 +1,9 @@
+<section>
+    <div class="nameAndType">
+        <h1>{{pokemonName}}</h1>
+        <div>
+            <p *ngFor="let type of pokemonTypes">{{type.type.name}}</p>
+        </div>
+    </div>
+    <p class="textDescription">{{pokemonDescriptionText}}</p>
+</section>

@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  width: 98vw;
+  min-height: 8rem;
+  background: #D2D3DB;
+  gap: 5rem;
+  border-radius: 7rem;
+}
+
+main h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+  color: #484b6a;
+  font-size: 5rem;
+  font-family: "Bangers", cursive;
+  margin: 0;
+  padding: 1rem;
+  border: none;
+  border-bottom: #484b6a solid 6px;
+  border-radius: 0.5rem;
+}
+
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 5rem;
+    gap: 1.5rem;
+}
+
+main div h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: "Bangers", cursive;
+    border-radius: 1rem;
+    color: #484b6a;
+    background-color: #9394A5;
+}

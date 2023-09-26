@@ -1,0 +1,10 @@
+<div class="container">
+    <app-header-pokemon-detail></app-header-pokemon-detail>
+    <section class="pokemonInfo">
+        <app-pokemon-detail-image [pokemonImage]="pokemonImage"></app-pokemon-detail-image>
+        <app-pokemon-details-text [pokemonName]="pokemonName" [pokemonDescriptionText]="pokemonDescriptionText" [pokemonTypes]="pokemonTypes"></app-pokemon-details-text>
+    </section>
+    <app-pokemon-details-moves [pokemonMoves]="pokemonMoves"></app-pokemon-details-moves>
+    <app-pokemon-details-abilities [pokemonAbilities]="pokemonAbilities"></app-pokemon-details-abilities>
+    <app-pokemon-details-footer></app-pokemon-details-footer>
+</div>

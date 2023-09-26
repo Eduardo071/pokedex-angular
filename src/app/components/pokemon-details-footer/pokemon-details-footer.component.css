@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
+    margin: 0;
+    padding: 1rem;
+    color: #484B6A;
+}
+
+footer p mat-icon {
+    width: 5rem;
+    height: 5rem;
+    font-size: 5rem;
+}
